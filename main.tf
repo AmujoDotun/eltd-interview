@@ -1,19 +1,9 @@
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAINBIW4LHGDVKKM7A"
-  secret_key = "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"
+  access_key = "insert key here"
+  secret_key = "same here"
 }
 
-# resource "aws_instance" "eltd-server" {
-#     ami = "ami-0dd9f0e7df0f0a138"
-#     instance_type = "t2.micro"
-
-#     tags = {
-#       "Name" = "Ubuntu-Server"
-#     }
-
-  
-# }
 
 
 
